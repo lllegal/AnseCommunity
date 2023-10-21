@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SecondApplication" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/mainColor</item>
+    </style>
+
+    <style name="Theme.SecondApplication" parent="Base.Theme.SecondApplication" />
+
+    <style name="AuthEditText" parent="android:Widget.EditText">
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_margin">7dp</item>
+
+    </style>
+</resources>

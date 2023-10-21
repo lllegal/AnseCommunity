@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430460756553",
+    "project_id": "ansecommunity",
+    "storage_bucket": "ansecommunity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430460756553:android:ce1092e49efdcb3cebd598",
+        "android_client_info": {
+          "package_name": "com.example.secondapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjyCbDgJ0yyPLSd2uhjjLMQbhWsus4bQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
