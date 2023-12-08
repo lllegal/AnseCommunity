@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".setting.SettingActivity">
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/mainColor"
+                    android:layout_height="70dp">
+
+                    <TextView
+                        android:text="정보 수정"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="1학년 교과목"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:columnCount="2">
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="전산기계제도"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="창의적기초공학설계"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="소프트웨어기초"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="컴퓨터프로그래밍기초PBL"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="정역학"/>
+
+                </GridLayout>
+
+                <TextView
+                    android:text="2학년 교과목"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:columnCount="2">
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="고체역학1"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="유체역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="Linux시스템프로그래밍"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="자료구조및알고리즘PBL"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="열역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="객체지향프로그래밍"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="기계공작실습"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="공학수학1/이산수학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공우주및소프트웨어공학개론"
+                        android:textSize="12sp"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="동역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="이산신호처리"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="고체역학2"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="공학수학2"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공전자기초"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="수치해석"/>
+
+                </GridLayout>
+
+                <TextView
+                    android:text="3학년 교과목"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:columnCount="2">
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="비행역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="소프트웨어개발론PBL"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공기구조역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="공기역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="기계진동학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="CAD응용"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="자동제어"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="운영체제커널"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="데이터베이스"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="컴퓨터구조"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="압축성유체역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공기설계"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공기추진시스템"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="컴퓨터네트워크"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공그래픽스및시뮬레이션"/>
+
+                </GridLayout>
+
+                <TextView
+                    android:text="4학년 교과목"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:columnCount="2">
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="종합설계"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="항공우주및소프트웨어공학실험"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="수직이착륙기항공역학"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="소프트웨어연구참여"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="연구참여형캡스톤디자인"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="비행제어설계"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="풍력발전시스템"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="우주비행역학및위성제어"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="디바이스드라이버설계"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="항공우주SW표준과테스팅"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="전산역학입문"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="임베디드하드웨어"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="기계학습"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="공학문서작성및발표"/>
+
+                    <CheckBox
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="기업가정신과창업창의융합PBL"/>
+
+
+                </GridLayout>
+
+                <TextView
+                    android:text="전화번호"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <EditText
+                    android:id="@+id/phoneNumberArea"
+                    android:text =""
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:text="카카오톡 ID"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <EditText
+                    android:id="@+id/kakaoIdArea"
+                    android:text =""
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:text="SNS URL"
+                    android:gravity="bottom"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <EditText
+                    android:id="@+id/urlArea"
+                    android:text =""
+                    android:hint="개인 SNS 주소가 있다면 입력해주세요."
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/completeBtn"
+                    android:text="수정 완료"
+                    android:textSize="15sp"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/background_radius"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>
