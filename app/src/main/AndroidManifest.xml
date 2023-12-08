@@ -13,6 +13,12 @@
         android:theme="@style/Theme.SecondApplication"
         tools:targetApi="31">
         <activity
+            android:name=".setting.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".setting.MyPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".auth.JoinActivity"
             android:exported="false" />
         <activity

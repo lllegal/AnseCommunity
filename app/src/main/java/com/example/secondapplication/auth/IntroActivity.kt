@@ -1,8 +1,8 @@
 package com.example.secondapplication.auth
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.secondapplication.R
 import com.example.secondapplication.databinding.ActivityIntroBinding
@@ -16,6 +16,7 @@ class IntroActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
 
+        //DataBinding
         binding = DataBindingUtil.setContentView(this, R.layout.activity_intro)
 
         binding.loginBtn.setOnClickListener{

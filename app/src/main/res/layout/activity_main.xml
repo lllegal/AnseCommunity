@@ -8,10 +8,22 @@
 
     <Button
         android:id="@+id/logoutBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
         android:text="로그아웃"
-        app:layout_constraintRight_toRightOf="parent" />
+        android:layout_margin="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/myPageBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:text="사용자 정보"
+        app:layout_constraintEnd_toStartOf="@+id/logoutBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
 <!--        app:layout_constraintBottom_toBottomOf="parent"-->
 <!--        app:layout_constraintEnd_toEndOf="parent"-->
 <!--        app:layout_constraintStart_toStartOf="parent"-->
