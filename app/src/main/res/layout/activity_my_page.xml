@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".setting.MyPageActivity">
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/mainColor">
+
+                    <Button
+                        android:id="@+id/prevBtn"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="#00ff0000"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:text="내 정보"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_width="270dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/myUid"
+                        android:text="myUid"
+                        android:layout_margin="10dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:text="이메일"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <EditText
+                        android:id="@+id/myEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:enabled="false"/>
+
+                    <TextView
+                        android:text="사용자 이름"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <EditText
+                        android:id="@+id/myUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:enabled="false"/>
+
+                    <TextView
+                        android:text="이름"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+
+                    <EditText
+                        android:id="@+id/myName"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+
+
+                    <TextView
+                        android:text="전화번호"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <EditText
+                        android:id="@+id/myPhoneNumber"
+                        android:text =""
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+
+                    <TextView
+                        android:text="카카오톡 ID"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <EditText
+                        android:id="@+id/myKakaoId"
+                        android:text =""
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+
+                    <TextView
+                        android:text="SNS URL"
+                        android:gravity="bottom"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <EditText
+                        android:id="@+id/myUrl"
+                        android:text =""
+                        android:hint="개인 SNS 주소가 있다면 입력해주세요."
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+
+                    <Button
+                        android:id="@+id/myInfoSaveBtn"
+                        android:text="저장"
+                        android:textSize="15sp"
+                        android:layout_marginVertical="50dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:background="@drawable/background_radius"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp" />
+
+                </LinearLayout>
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</layout>
+

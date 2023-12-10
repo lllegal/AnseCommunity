@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".auth.LoginActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/mainColor"
+            android:layout_height="70dp">
+
+            <TextView
+                android:text="로그인"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/emailArea"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="이메일을 입력하세요."
+                style="@style/AuthEditText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#999999"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:id="@+id/passwordArea"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:hint="비밀번호를 입력하세요."
+                style="@style/AuthEditText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#999999"
+                android:layout_height="1dp" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:text="로그인하기"
+                android:textSize="15sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/background_radius"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
