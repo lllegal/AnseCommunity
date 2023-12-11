@@ -91,12 +91,12 @@ class JoinActivity : AppCompatActivity() {
 
                             FirebaseRef.userInfoRef.child(uid).setValue(userModel)
 
-                            Toast.makeText(this, "회원가입이 완료되었습니다.", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this, "회원가입이 완료되었습니다.\n다시 로그인해 주십시오.", Toast.LENGTH_LONG).show()
 
-                            //auth.signOut()
+                            auth.signOut()
 
-                            val intent = Intent(this, MainActivity::class.java) // 위아래줄 주석 해제 + IntroActivity로 바꾸기
-                            //intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                            val intent = Intent(this, IntroActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                             startActivity(intent)
 
                         } else {

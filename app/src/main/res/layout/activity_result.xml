@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".searching.ResultActivity">
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/mainColor">
+
+                    <TextView
+                        android:text="검색 결과"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="right55\n김철수\n정역학  유체역학  수치해석"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="#999999"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:text="ollive123\n김나무\n창의적기초공학설계  동역학  수치해석"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="#999999"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:id="@+id/puppy"
+                        android:text="puppy12\n김멍멍\n열역학  객체지향프로그밍/실습  기계공작실습"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="#999999"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:text="maymay\n오사랑\n수치해석  비행역학  공기역학"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="#999999"
+                        android:layout_height="1dp"/>
+
+                </LinearLayout>
+
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

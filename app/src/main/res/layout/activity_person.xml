@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".setting.ProfileActivity">
+        tools:context=".setting.PersonActivity">
 
         <ScrollView
             android:layout_height="match_parent"
@@ -24,7 +24,7 @@
                     android:background="@color/mainColor">
 
                     <TextView
-                        android:text="내 프로필"
+                        android:text="상세 프로필"
                         android:gravity="center"
                         android:textStyle="bold"
                         android:textColor="@color/white"
@@ -46,41 +46,25 @@
                         android:layout_height="70dp"
                         android:orientation="vertical">
 
-                            <TextView
-                                android:id="@+id/myUsername"
-                                android:text="UserName"
-                                android:textColor="@color/black"
-                                android:textSize="30sp"
-                                android:textStyle="bold"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"/>
+                        <TextView
+                            android:id="@+id/myUsername"
+                            android:text="skyblue123"
+                            android:textColor="@color/black"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"/>
 
-                            <TextView
-                                android:id="@+id/myName"
-                                android:text="Name"
-                                android:textSize="20sp"
-                                android:textColor="@color/black"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/myName"
+                            android:text="SKY"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
 
-                        </LinearLayout>
-
-                    <Button
-                        android:id="@+id/myPageBtn"
-                        android:text="내 정보"
-                        android:layout_width="60dp"
-                        android:layout_height="40dp"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/background_radius"/>
-
-                    <Button
-                        android:id="@+id/logoutBtn"
-                        android:text="로그아웃"
-                        android:layout_width="60dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/background_radius"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -97,7 +81,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:text="내가 수강한 교과목"
+                            android:text="수강한 교과목"
                             android:textSize="20sp"
                             android:textColor="@color/black"
                             android:layout_marginTop="15dp"
@@ -105,29 +89,60 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
-                        <ImageView
-                            android:id="@+id/editCoursesBtn"
-                            android:src="@drawable/edittext"
-                            android:layout_marginTop="22dp"
-                            android:layout_marginStart="10dp"
-                            android:layout_width="18dp"
-                            android:scaleType="fitXY"
-                            android:layout_height="18dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/myCourses"
+                        android:text="전산기계제도\n수치해석\n소프트웨어개발론PPBL\n데이터베이스"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="22dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="30dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/background_radius_with_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
 
                         <TextView
-                            android:text="편집"
-                            android:textSize="14sp"
+                            android:text="연락처"
+                            android:textSize="20sp"
                             android:textColor="@color/black"
-                            android:layout_marginTop="14dp"
-                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/myCourses"
-                        android:text="수강한 교과목을 등록해주세요."
+                        android:text="휴대전화번호 : 01012341234"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="22dp"/>
+
+                    <TextView
+                        android:text="카카오톡 아이디 : skyblue"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="22dp"/>
+
+                    <TextView
+                        android:text="SNS URL : https://sky.com"
                         android:textSize="15sp"
                         android:textColor="@color/black"
                         android:layout_width="match_parent"
